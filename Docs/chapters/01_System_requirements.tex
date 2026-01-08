@@ -1,0 +1,143 @@
+1General Purpose
+1.1Mandatory Criteria
+
+The following requirements must be fulfilled. Each is derived directly from the User Requirements Specification.
+
+The system shall select and formalize a representative structured risk-assessment method (e.g., HAZOP, FMECA) to serve as the benchmark.
+
+The system shall evaluate multiple state-of-the-art, off-the-shelf LLMs on the selected benchmark to establish baseline performance.
+
+The system shall integrate a retrieval pipeline that supplies domain-specific risk-assessment knowledge to LLMs and enables re-evaluation under RAG conditions.
+
+The system shall perform a comparative analysis of baseline and RAG-enhanced evaluations, using both quantitative metrics and qualitative assessments.
+
+1.2Optional Criteria
+
+The following requirement may be implemented if time allows:
+
+The system may fine-tune at least one LLM on curated risk-assessment corpora and evaluate its performance using the benchmark.
+
+1.3Demarcation Criteria
+
+The following aspects are explicitly excluded to keep the project scope reasonably confined:
+
+The system will not develop an automated industrial risk-assessment tool.
+
+The system will not integrate with real industrial systems and safety-critical environments.
+
+The system will not use confidential and restricted industrial data.
+
+Real-time performance, deployment, or operational integration is not included.
+
+No new LLM models will be created, only existing off-the-shelf models will be evaluated.
+
+Model outputs will not be used to make real safety-critical decisions.
+
+The project focuses solely on research experiments, not the development of a practical industrial tool.
+2Operational Area
+2.1Areas of Application
+The system is intended for academic research purposes within the scope of this research project. 
+Its primary applications include:
+Creating a structured evaluation benchmark for LLMs in risk-assessment contexts.
+
+Running baseline and RAG-enhanced LLM experiments.
+
+Supporting fine-tuning experiments (optional).
+
+Providing insights into the feasibility of LLM-based support in structured engineering analysis.
+2.2User Group
+The main users are:
+
+The research project author - Munazzar Ajreen.
+
+The supervisor and examiner (reviewers of results).
+
+Future researchers who may reuse or extend the system framework
+3Requirements to the Conception
+All requirements from the user requirements specification must be referenced.
+
+/CR10/	Functional Requirements
+
+
+/CR11/	Benchmark: The research thesis shall select and formalize a representative structured risk assessment method (e.g., HAZOP, FMECA) to be used as a benchmark.
+
+/CR12/	Assessment Criteria: The research thesis shall derive relevant assessment criteria that allow systematic comparison of LLM performance against the selected risk assessment benchmark.
+
+/CR13/	LLM: The research thesis shall evaluate multiple state-of-the-art, off-the-shelf LLMs on the chosen benchmark to establish baseline performance.
+
+/CR14/
+	RAG: The research thesis shall integrate a retrieval pipeline that supplies domain-specific risk assessment knowledge to LLMs and enable re-evaluation of performance against the baseline.
+
+/CR15/	
+Fine-Tuning (Optional - If time allows): The research thesis may fine-tune at least one LLM on curated risk assessment corpora and evaluate its performance on the benchmark.
+
+/CR16/	Evaluation: The research thesis shall perform a comparative analysis of baseline and RAG-enhanced, including quantitative metrics and qualitative assessments.
+
+/CR17/	Report: The research thesis shall document results in a structured format and provide insights into the applicability of LLMs to real-world risk assessment practice.
+
+	
+
+
+
+/CR20/	Non-Functional Requirements
+
+Implementation:
+
+/CR21/	The research thesis shall implement the solution in Python. 
+	
+/CR22/	The research thesis shall design the solution using object-oriented programming principles to ensure modularity, clarity, and extensibility.
+
+/CR23/
+	The research thesis shall maintain the full codebase in a Git repository with version history, branching, and adequate documentation.
+
+/CR24/	The research thesis shall ensure the reproducibility of experiments by systematically logging and storing prompts, outputs, datasets, and evaluation metrics.
+
+/CR25/	
+The research thesis shall report model types, configurations, hyperparameters, and data sources used in all experiments in a transparent manner.
+
+4Quality Requirements
+Product Quality	very high	high	normal	not relevant
+Theory		x		
+Universality			x	
+Consistency			x	
+Functionality			x	
+Correctness			x	
+Applicability			x	
+Safety			x	
+Usability			x	
+Comprehensibility			x	
+Learnability			x	
+Adaptability			x	
+Analyzability			x	
+Modifiability			x	
+
+Terminology of Quality Requirements:
+1.Theory: Presence of scientific methods of approach
+Universality: Degree to which the theoretical approach is generalizable
+Consistency: Degree to which the theoretical approach is non-contradictory and cohesive
+
+2.Functionality: Presence of features with specified characteristics meeting pre-defined requirements
+Correctness: Providing of correct results and outputs as specified before 
+Applicability: Degree to which the concept shall be practically implemented
+
+3.Safety (according to VDI 3542/1): State in which the actual risk is smaller than the maximum justifiable risk (absence of danger). Is maintained by meeting correctness requirements.
+
+4.Usability: Effort necessary to allow use and individual assessment of said effort by pre-defined user groups.
+Comprehensibility: Effort necessary to understand the concept
+Learnability: Effort necessary to learn the concept (e.g regarding handling, maintaining, inputs or outputs)
+
+5.Adaptability: Effort necessary to implement changes. Changes can be corrections, improvements or adaptions to changes of the environment, the requirements or functional specifications.
+Analyzability: Effort to diagnose faults or the causes of defects or to identify parts to be changed
+Modifiability: Effort to carry out improvements, correct faults or adapt to external changes
+5Execution
+The thesis has to be executed according to the “IAS Process Model” (Model for Conceptional Projects). 
+
+The current state of the thesis and results have to be discussed with the tutor every two weeks.
+
+The IAS guidelines have to be respected.
+
+6. Additions
+None.
+7 Literature
+None.	
+
