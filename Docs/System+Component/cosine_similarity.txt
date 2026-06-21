@@ -1,0 +1,162 @@
+RUS_CIP\st188504@ias-1316:~$ cat runs/20260419_230715_cosine_similarity_results.json
+{
+  "num_pairs": 26,
+  "mean_cosine_similarity": 0.6562,
+  "pairs": [
+    {
+      "id": 1,
+      "reference": "Pump: Vane wheel breakage",
+      "candidate": "Pump: Insufficient flow rate",
+      "cosine_similarity": 0.3911
+    },
+    {
+      "id": 2,
+      "reference": "Pump: Leakage from casing",
+      "candidate": "Pump: Insufficient flow rate",
+      "cosine_similarity": 0.4137
+    },
+    {
+      "id": 3,
+      "reference": "Pump: Vane wheel jammed",
+      "candidate": "Pump: Insufficient flow rate",
+      "cosine_similarity": 0.4145
+    },
+    {
+      "id": 4,
+      "reference": "Pump: Pump wear",
+      "candidate": "Pump: Insufficient flow rate",
+      "cosine_similarity": 0.4303
+    },
+    {
+      "id": 5,
+      "reference": "Filter: Blockage",
+      "candidate": "Filter: Clogging",
+      "cosine_similarity": 0.631
+    },
+    {
+      "id": 6,
+      "reference": "Filter: Rupture",
+      "candidate": "Filter: Contamination of hydraulic fluid",
+      "cosine_similarity": 0.483
+    },
+    {
+      "id": 7,
+      "reference": "Unload valve: Failure to unload",
+      "candidate": "Unload valve: Inability to regulate pressure",
+      "cosine_similarity": 0.7703
+    },
+    {
+      "id": 8,
+      "reference": "Unload valve: Continuous return to reservoir",
+      "candidate": "Unload valve: Sticking",
+      "cosine_similarity": 0.6395
+    },
+    {
+      "id": 9,
+      "reference": "Check valve: Failure to open",
+      "candidate": "Check valve: Backflow",
+      "cosine_similarity": 0.5548
+    },
+    {
+      "id": 10,
+      "reference": "Check valve: Failure to close",
+      "candidate": "Check valve: Inability to seal",
+      "cosine_similarity": 0.708
+    },
+    {
+      "id": 11,
+      "reference": "Pressure gauge: Incorrect reading",
+      "candidate": "Pressure gauge: Inaccurate pressure reading",
+      "cosine_similarity": 0.9409
+    },
+    {
+      "id": 12,
+      "reference": "Relief valves: Failure to open",
+      "candidate": "Relief valves: Inability to regulate pressure",
+      "cosine_similarity": 0.7705
+    },
+    {
+      "id": 13,
+      "reference": "Relief valves: Failure to close",
+      "candidate": "Relief valves: Inability to regulate pressure",
+      "cosine_similarity": 0.759
+    },
+    {
+      "id": 14,
+      "reference": "Accumulator bladder: Ruptured",
+      "candidate": "Accumulator bladder: Loss of pressure",
+      "cosine_similarity": 0.7838
+    },
+    {
+      "id": 15,
+      "reference": "Dump valve: Leakage",
+      "candidate": "Dump valve: Inability to release pressure",
+      "cosine_similarity": 0.8022
+    },
+    {
+      "id": 16,
+      "reference": "Servo-valves: Null position drift/offset",
+      "candidate": "Servo-valves: Inability to control flow",
+      "cosine_similarity": 0.679
+    },
+    {
+      "id": 17,
+      "reference": "Servo-valves: Failure in closed mode",
+      "candidate": "Servo-valves: Inability to control flow",
+      "cosine_similarity": 0.7889
+    },
+    {
+      "id": 18,
+      "reference": "Servo-valves: Failure in open mode",
+      "candidate": "Servo-valves: Inability to control flow",
+      "cosine_similarity": 0.7645
+    },
+    {
+      "id": 19,
+      "reference": "Actuators: Housing leakage",
+      "candidate": "Actuators: Inability to move limb",
+      "cosine_similarity": 0.3635
+    },
+    {
+      "id": 20,
+      "reference": "Actuators: Housing or seal rupture",
+      "candidate": "Actuators: Inability to move limb",
+      "cosine_similarity": 0.4422
+    },
+    {
+      "id": 21,
+      "reference": "Piping and seals: Leakage",
+      "candidate": "Piping and seals: Leakage",
+      "cosine_similarity": 1.0
+    },
+    {
+      "id": 22,
+      "reference": "Piping and seals: Rupture",
+      "candidate": "Piping and seals: Leakage",
+      "cosine_similarity": 0.834
+    },
+    {
+      "id": 23,
+      "reference": "Reservoir: Leakage: total fluid loss",
+      "candidate": "Reservoir: Insufficient fluid level",
+      "cosine_similarity": 0.6288
+    },
+    {
+      "id": 24,
+      "reference": "Reservoir: Leakage: slow fluid loss",
+      "candidate": "Reservoir: Insufficient fluid level",
+      "cosine_similarity": 0.6703
+    },
+    {
+      "id": 25,
+      "reference": "Heat exchanger: Oil leakage",
+      "candidate": "Heat exchanger: Inability to regulate temperature",
+      "cosine_similarity": 0.572
+    },
+    {
+      "id": 26,
+      "reference": "Heat exchanger: Insufficient cooling",
+      "candidate": "Heat exchanger: Inability to regulate temperature",
+      "cosine_similarity": 0.8261
+    }
+  ]

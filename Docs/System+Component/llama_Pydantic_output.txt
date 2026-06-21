@@ -1,0 +1,204 @@
+RUS_CIP\st188504@ias-1316:~$ cat runs/20260419_201348_output.json
+{
+  "rows": [
+    {
+      "component": "Pump",
+      "failure_mode": "Insufficient flow rate",
+      "effect_on_other_components": "Reduced pressure, increased load on accumulator",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, pump replacement"
+    },
+    {
+      "component": "Filter",
+      "failure_mode": "Contamination of hydraulic fluid",
+      "effect_on_other_components": "Reduced filter effectiveness, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Regular maintenance, fluid analysis",
+      "compensating_provisions_and_remarks": "Regular filter replacement, fluid change"
+    },
+    {
+      "component": "Unload valve",
+      "failure_mode": "Inability to regulate pressure",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Check valve",
+      "failure_mode": "Backflow",
+      "effect_on_other_components": "Contamination of hydraulic fluid, reduced filter effectiveness",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Pressure gauge",
+      "failure_mode": "Inaccurate pressure reading",
+      "effect_on_other_components": "Inaccurate system performance monitoring",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Regular calibration, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular calibration, gauge replacement"
+    },
+    {
+      "component": "Relief valves",
+      "failure_mode": "Inability to regulate pressure",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Accumulator bladder",
+      "failure_mode": "Loss of pressure",
+      "effect_on_other_components": "Reduced system performance, increased load on pump",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, accumulator replacement"
+    },
+    {
+      "component": "Dump valve",
+      "failure_mode": "Inability to release pressure",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Servo-valves",
+      "failure_mode": "Inability to control flow",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "System performance monitoring, valve performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Actuators",
+      "failure_mode": "Inability to move limb",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "System performance monitoring, visual inspection",
+      "compensating_provisions_and_remarks": "Regular maintenance, actuator replacement"
+    },
+    {
+      "component": "Piping and seals",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Contamination of hydraulic fluid, reduced filter effectiveness",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Visual inspection, fluid analysis",
+      "compensating_provisions_and_remarks": "Regular maintenance, seal replacement"
+    },
+    {
+      "component": "Reservoir",
+      "failure_mode": "Insufficient fluid level",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Fluid level monitoring, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, fluid top-off"
+    },
+    {
+      "component": "Heat exchanger",
+      "failure_mode": "Inability to regulate temperature",
+      "effect_on_other_components": "Increased temperature, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Temperature monitoring, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, heat exchanger replacement"
+    },
+    {
+      "component": "Pump",
+      "failure_mode": "Overheating",
+      "effect_on_other_components": "Reduced pump performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Temperature monitoring, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, pump replacement"
+    },
+    {
+      "component": "Filter",
+      "failure_mode": "Clogging",
+      "effect_on_other_components": "Reduced filter effectiveness, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Regular maintenance, fluid analysis",
+      "compensating_provisions_and_remarks": "Regular filter replacement, fluid change"
+    },
+    {
+      "component": "Unload valve",
+      "failure_mode": "Sticking",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Check valve",
+      "failure_mode": "Inability to seal",
+      "effect_on_other_components": "Contamination of hydraulic fluid, reduced filter effectiveness",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Pressure gauge",
+      "failure_mode": "Inaccurate pressure reading",
+      "effect_on_other_components": "Inaccurate system performance monitoring",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Regular calibration, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular calibration, gauge replacement"
+    },
+    {
+      "component": "Relief valves",
+      "failure_mode": "Inability to regulate pressure",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Accumulator bladder",
+      "failure_mode": "Loss of pressure",
+      "effect_on_other_components": "Reduced system performance, increased load on pump",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, accumulator replacement"
+    },
+    {
+      "component": "Dump valve",
+      "failure_mode": "Inability to release pressure",
+      "effect_on_other_components": "Increased pressure, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Pressure gauge, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Servo-valves",
+      "failure_mode": "Inability to control flow",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "System performance monitoring, valve performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, valve replacement"
+    },
+    {
+      "component": "Actuators",
+      "failure_mode": "Inability to move limb",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "System performance monitoring, visual inspection",
+      "compensating_provisions_and_remarks": "Regular maintenance, actuator replacement"
+    },
+    {
+      "component": "Piping and seals",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Contamination of hydraulic fluid, reduced filter effectiveness",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Visual inspection, fluid analysis",
+      "compensating_provisions_and_remarks": "Regular maintenance, seal replacement"
+    },
+    {
+      "component": "Reservoir",
+      "failure_mode": "Insufficient fluid level",
+      "effect_on_other_components": "Reduced system performance, potential for system failure",
+      "effect_on_whole_system": "Reduced system performance, potential for system failure",
+      "detection_method": "Fluid level monitoring, system performance monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance, fluid top-off"
+    }
+  ]

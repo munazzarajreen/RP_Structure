@@ -1,0 +1,124 @@
+RUS_CIP\st188504@ias-1316:~/risk-llm-fmeca$ cat  runs/20260420_110836_vlm_s1_output.json
+{
+  "rows": [
+    {
+      "component": "Pump",
+      "failure_mode": "Failure to start",
+      "effect_on_other_components": "Lack of hydraulic pressure",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Monitoring of pump status",
+      "compensating_provisions_and_remarks": "Backup pump or manual start"
+    },
+    {
+      "component": "Check valve",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Hydraulic pressure loss",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Pressure drop monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance and replacement"
+    },
+    {
+      "component": "Oil filter",
+      "failure_mode": "Clogging",
+      "effect_on_other_components": "Reduced hydraulic pressure",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Pressure drop monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance and replacement"
+    },
+    {
+      "component": "Heat exchanger",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Hydraulic pressure loss",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Pressure drop monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance and replacement"
+    },
+    {
+      "component": "Reservoir",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Reduced hydraulic pressure",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Pressure drop monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance and replacement"
+    },
+    {
+      "component": "Servo-power amp units",
+      "failure_mode": "Overheating",
+      "effect_on_other_components": "Reduced power output",
+      "effect_on_whole_system": "System performance degradation",
+      "detection_method": "Temperature monitoring",
+      "compensating_provisions_and_remarks": "Cooling system, regular maintenance"
+    },
+    {
+      "component": "DAC unit",
+      "failure_mode": "Failure to communicate",
+      "effect_on_other_components": "Control and computation unit failure",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Communication monitoring",
+      "compensating_provisions_and_remarks": "Redundant communication channels"
+    },
+    {
+      "component": "Control and computation unit",
+      "failure_mode": "Software failure",
+      "effect_on_other_components": "Incorrect control signals",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Software monitoring",
+      "compensating_provisions_and_remarks": "Regular software updates, backup systems"
+    },
+    {
+      "component": "I/O unit",
+      "failure_mode": "Electrical failure",
+      "effect_on_other_components": "Incorrect input/output signals",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Electrical signal monitoring",
+      "compensating_provisions_and_remarks": "Redundant I/O units"
+    },
+    {
+      "component": "Memory unit",
+      "failure_mode": "Data corruption",
+      "effect_on_other_components": "Incorrect data processing",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Data integrity monitoring",
+      "compensating_provisions_and_remarks": "Regular data backup, redundant memory units"
+    },
+    {
+      "component": "Operator control panel",
+      "failure_mode": "User error",
+      "effect_on_other_components": "Incorrect input signals",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "User input monitoring",
+      "compensating_provisions_and_remarks": "Operator training, error messages"
+    },
+    {
+      "component": "Teach pendant",
+      "failure_mode": "Electrical failure",
+      "effect_on_other_components": "Incorrect input signals",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Electrical signal monitoring",
+      "compensating_provisions_and_remarks": "Redundant teach pendant"
+    },
+    {
+      "component": "Emergency stop facilities",
+      "failure_mode": "Malfunction",
+      "effect_on_other_components": "System stops",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Regular inspection",
+      "compensating_provisions_and_remarks": "Redundant emergency stop facilities"
+    },
+    {
+      "component": "Gripper system (pneumatic)",
+      "failure_mode": "Leakage",
+      "effect_on_other_components": "Reduced pneumatic pressure",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Pressure drop monitoring",
+      "compensating_provisions_and_remarks": "Regular maintenance and replacement"
+    },
+    {
+      "component": "AC power supply connection and fuses",
+      "failure_mode": "Failure to connect",
+      "effect_on_other_components": "Lack of electrical power",
+      "effect_on_whole_system": "System stops",
+      "detection_method": "Power supply monitoring",
+      "compensating_provisions_and_remarks": "Backup power supply, regular maintenance"
+    }
+  ]

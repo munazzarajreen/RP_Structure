@@ -1,0 +1,216 @@
+RUS_CIP\st188504@ias-1316:~$ cat  runs/20260419_231354_rouge_l_results.json
+{
+  "num_pairs": 26,
+  "mean_rougeL_precision": 0.434,
+  "mean_rougeL_recall": 0.4763,
+  "mean_rougeL_f1": 0.4424,
+  "pairs": [
+    {
+      "id": 1,
+      "reference": "Pump: Vane wheel breakage",
+      "candidate": "Pump: Insufficient flow rate",
+      "rougeL_precision": 0.25,
+      "rougeL_recall": 0.25,
+      "rougeL_f1": 0.25
+    },
+    {
+      "id": 2,
+      "reference": "Pump: Leakage from casing",
+      "candidate": "Pump: Insufficient flow rate",
+      "rougeL_precision": 0.25,
+      "rougeL_recall": 0.25,
+      "rougeL_f1": 0.25
+    },
+    {
+      "id": 3,
+      "reference": "Pump: Vane wheel jammed",
+      "candidate": "Pump: Insufficient flow rate",
+      "rougeL_precision": 0.25,
+      "rougeL_recall": 0.25,
+      "rougeL_f1": 0.25
+    },
+    {
+      "id": 4,
+      "reference": "Pump: Pump wear",
+      "candidate": "Pump: Insufficient flow rate",
+      "rougeL_precision": 0.25,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.2857
+    },
+    {
+      "id": 5,
+      "reference": "Filter: Blockage",
+      "candidate": "Filter: Clogging",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.5,
+      "rougeL_f1": 0.5
+    },
+    {
+      "id": 6,
+      "reference": "Filter: Rupture",
+      "candidate": "Filter: Contamination of hydraulic fluid",
+      "rougeL_precision": 0.2,
+      "rougeL_recall": 0.5,
+      "rougeL_f1": 0.2857
+    },
+    {
+      "id": 7,
+      "reference": "Unload valve: Failure to unload",
+      "candidate": "Unload valve: Inability to regulate pressure",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.6,
+      "rougeL_f1": 0.5455
+    },
+    {
+      "id": 8,
+      "reference": "Unload valve: Continuous return to reservoir",
+      "candidate": "Unload valve: Sticking",
+      "rougeL_precision": 0.6667,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.4444
+    },
+    {
+      "id": 9,
+      "reference": "Check valve: Failure to open",
+      "candidate": "Check valve: Backflow",
+      "rougeL_precision": 0.6667,
+      "rougeL_recall": 0.4,
+      "rougeL_f1": 0.5
+    },
+    {
+      "id": 10,
+      "reference": "Check valve: Failure to close",
+      "candidate": "Check valve: Inability to seal",
+      "rougeL_precision": 0.6,
+      "rougeL_recall": 0.6,
+      "rougeL_f1": 0.6
+    },
+    {
+      "id": 11,
+      "reference": "Pressure gauge: Incorrect reading",
+      "candidate": "Pressure gauge: Inaccurate pressure reading",
+      "rougeL_precision": 0.6,
+      "rougeL_recall": 0.75,
+      "rougeL_f1": 0.6667
+    },
+    {
+      "id": 12,
+      "reference": "Relief valves: Failure to open",
+      "candidate": "Relief valves: Inability to regulate pressure",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.6,
+      "rougeL_f1": 0.5455
+    },
+    {
+      "id": 13,
+      "reference": "Relief valves: Failure to close",
+      "candidate": "Relief valves: Inability to regulate pressure",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.6,
+      "rougeL_f1": 0.5455
+    },
+    {
+      "id": 14,
+      "reference": "Accumulator bladder: Ruptured",
+      "candidate": "Accumulator bladder: Loss of pressure",
+      "rougeL_precision": 0.4,
+      "rougeL_recall": 0.6667,
+      "rougeL_f1": 0.5
+    },
+    {
+      "id": 15,
+      "reference": "Dump valve: Leakage",
+      "candidate": "Dump valve: Inability to release pressure",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.6667,
+      "rougeL_f1": 0.4444
+    },
+    {
+      "id": 16,
+      "reference": "Servo-valves: Null position drift/offset",
+      "candidate": "Servo-valves: Inability to control flow",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.3333
+    },
+    {
+      "id": 17,
+      "reference": "Servo-valves: Failure in closed mode",
+      "candidate": "Servo-valves: Inability to control flow",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.3333
+    },
+    {
+      "id": 18,
+      "reference": "Servo-valves: Failure in open mode",
+      "candidate": "Servo-valves: Inability to control flow",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.3333
+    },
+    {
+      "id": 19,
+      "reference": "Actuators: Housing leakage",
+      "candidate": "Actuators: Inability to move limb",
+      "rougeL_precision": 0.2,
+      "rougeL_recall": 0.3333,
+      "rougeL_f1": 0.25
+    },
+    {
+      "id": 20,
+      "reference": "Actuators: Housing or seal rupture",
+      "candidate": "Actuators: Inability to move limb",
+      "rougeL_precision": 0.2,
+      "rougeL_recall": 0.2,
+      "rougeL_f1": 0.2
+    },
+    {
+      "id": 21,
+      "reference": "Piping and seals: Leakage",
+      "candidate": "Piping and seals: Leakage",
+      "rougeL_precision": 1.0,
+      "rougeL_recall": 1.0,
+      "rougeL_f1": 1.0
+    },
+    {
+      "id": 22,
+      "reference": "Piping and seals: Rupture",
+      "candidate": "Piping and seals: Leakage",
+      "rougeL_precision": 0.75,
+      "rougeL_recall": 0.75,
+      "rougeL_f1": 0.75
+    },
+    {
+      "id": 23,
+      "reference": "Reservoir: Leakage: total fluid loss",
+      "candidate": "Reservoir: Insufficient fluid level",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.4,
+      "rougeL_f1": 0.4444
+    },
+    {
+      "id": 24,
+      "reference": "Reservoir: Leakage: slow fluid loss",
+      "candidate": "Reservoir: Insufficient fluid level",
+      "rougeL_precision": 0.5,
+      "rougeL_recall": 0.4,
+      "rougeL_f1": 0.4444
+    },
+    {
+      "id": 25,
+      "reference": "Heat exchanger: Oil leakage",
+      "candidate": "Heat exchanger: Inability to regulate temperature",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.5,
+      "rougeL_f1": 0.4
+    },
+    {
+      "id": 26,
+      "reference": "Heat exchanger: Insufficient cooling",
+      "candidate": "Heat exchanger: Inability to regulate temperature",
+      "rougeL_precision": 0.3333,
+      "rougeL_recall": 0.5,
+      "rougeL_f1": 0.4
+    }
+  ]
