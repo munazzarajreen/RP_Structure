@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+outputs/EXP*/
+outputs/results.csv
+
+.env
+*.token
+.cache/
+hf_cache/
+huggingface/
+
+.vscode/
+.DS_Store
