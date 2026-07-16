@@ -57,7 +57,6 @@ Current capabilities
 Planned work
 
 - Benchmark datasets
-- ISO 60812 evaluation
 - RAG integration
 - Fine-tuning
 - Multi-model benchmarking
